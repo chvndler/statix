@@ -1,70 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>statix.starter</title>
     <link rel="stylesheet" href="scss/index.scss" />
     <script type="module" src="./js/main.js"></script>
-</head>
+  </head>
 
-<body>
-    <div class="container py-4 px-3 mx-auto">
-        <h3>jumpotron</h3>
-        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Spring into training for life.</h1>
-                <p class="col-md-8 fs-4">
-                    Et enim exercitation ullamco incididunt dolor proident magna nisi pariatur nostrud eu non pariatur proident et.
-                </p>
+  <body>
+    <div class="container-md py-4 px-1 mx-auto">
+      <div
+        class="py-5 px-5 mb-5 bg-body-tertiary rounded-5 border"
+        style="
+          background-image: url('https://www.isielitetraining.com/wp-content/uploads/2023/02/d56505_b84db7bce2f241a4907df04e9e1c1911_mv2.png');
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          object-fit: fill;
+        "
+      >
+        <div class="container-fluid py-5 px-0">
+          <h1 class="col-md-6 display-5 fw-bold">SPRING INTO TRAINING FOR LIFE.</h1>
+          <p class="col-md-6 fs-5">
+            Et enim exercitation ullamco incididunt dolor proident magna nisi pariatur nostrud eu non pariatur
+            proident et.
+          </p>
 
-                <button class="btn btn-primary btn-md" type="button">Get started now</button>
-            </div>
+          <div class="d-grid gap-4 col-4 mx-0">
+            <button class="btn btn-info" type="button">Sign Up Now</button>
+          </div>
         </div>
+      </div>
 
-        <hr />
-
-        <h3>offcanvas</h3>
-        <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
-        Toggle offcanvas
-      </button>
-
-        <!-- OFF CANVAS -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <div>
-                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                </div>
-                <div class="dropdown mt-3">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li>
-                            <a class="dropdown-item" href="#">Action</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+      <div class="container select">
+        <h1 class="text-center display-6 fw-bold mb-5">Choose your location to get started.</h1>
+        <select class="form-select rounded-3 border form-select-md mb-3" aria-label="Default select example">
+          <option selected>Select your location.</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
     </div>
 
     <footer class="footer mt-auto py-3 bg-body-tertiary">
-        <div class="container">
-            <span class="text-body-secondary">Place sticky footer content here.</span>
-        </div>
+      <div class="container">
+        <span class="text-body-secondary">© 2023</span>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
